@@ -1,11 +1,12 @@
 <?php
-
+// ini nama controller nya
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+// ini nama model connect to database
 use App\Models\pr;
+use App\Models\biddings; // ini aku tambahkan lagi modul model nya guys
 use Illuminate\Http\Request;
 use Auth;
 use App\Models\prdetail;
